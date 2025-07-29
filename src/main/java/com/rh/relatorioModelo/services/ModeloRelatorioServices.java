@@ -10,6 +10,6 @@ import java.util.Map;
 public class ModeloRelatorioServices {
     public void gerar(FuncionarioSaida funcionarioSaida){
         Map <String, Object> dados = new HashMap<>();
-        dados.put("Funcionario",funcionarioSaida);
+        dados.put("Funcionario",funcionarioSaida.);
     }
 }

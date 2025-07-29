@@ -11,6 +11,7 @@ import java.util.Date;
 @Data
 @Entity
 public class FuncionarioSaida {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long IdFormulario;
